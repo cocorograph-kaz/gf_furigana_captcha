@@ -1,6 +1,6 @@
 # GF Furigana Captcha Plugin
 
-![Gravity Forms ロゴ](https://www.gravityforms.com/wp-content/uploads/2020/03/cropped-gravity-forms-logo-1.png)
+![Gravity Forms ロゴ](https://s38924.pcdn.co/wp-content/themes/gfcom-voyager/dist/images/logo-black.svg?1736451929)
 
 Gravity Forms向けのふりがな入力専用フィールドプラグイン。姓・名のふりがな入力を安全に管理し、ひらがなのみの入力を強制するバリデーション機能を備えています。
 
