@@ -32,8 +32,6 @@ wp-content/plugins/ ディレクトリに手動で配置
 3. フィールド設定で必須項目/プレースホルダーを設定
 4. フォームを保存して公開
 
-![フィールド設定画面のスクリーンショット](screenshot-1.png)
-
 ## ⚙️ 設定オプション
 
 - **必須項目設定**: 姓・名両方の入力を必須に設定可能
@@ -59,14 +57,14 @@ wp-content/plugins/ ディレクトリに手動で配置
 ```php
 // プレースホルダー変更
 add_filter( 'gform_field_content', function( $content, $field ) {
-if( $field->type === 'furigana' ) {
-return str_replace(
-['placeholder="せい"', 'placeholder="めい"'],
-['placeholder="名字のふりがな"', 'placeholder="名前のふりがな"'],
-$content
-);
-}
-return $content;
+  if( $field->type === 'furigana' ) {
+    return str_replace(
+      ['placeholder="せい"', 'placeholder="めい"'],
+      ['placeholder="名字のふりがな"', 'placeholder="名前のふりがな"'],
+      $content
+    );
+  }
+  return $content;
 }, 10, 2 );
 ```
 
