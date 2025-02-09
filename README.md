@@ -2,7 +2,8 @@
 
 ![Gravity Forms ロゴ](https://s38924.pcdn.co/wp-content/themes/gfcom-voyager/dist/images/logo-black.svg?1736451929)
 
-Gravity Forms向けのふりがな入力専用フィールドプラグイン。姓・名のふりがな入力を安全に管理し、ひらがなのみの入力を強制するバリデーション機能を備えています。
+Gravity Forms向けのふりがな入力専用フィールドプラグイン。  
+姓・名のふりがな入力を安全に管理し、ひらがなのみの入力を強制するバリデーション機能を備えています。
 
 ## ✨ 特徴
 
@@ -87,5 +88,5 @@ A: `.ginput_container_furigana`クラスにCSSスタイルを適用
 
 ## 📜 ライセンス
 
-GPLv3 © 2025 Kazuhiro Nakamura
+GPLv3 © 2025 Kazuhiro Nakamura  
 ※ 本プラグインはGravity Formsの公式製品ではありません
